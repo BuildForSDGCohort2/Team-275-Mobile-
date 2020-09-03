@@ -1,3 +1,44 @@
 <resources>
     <string name="app_name">Team-275-Mobile-App</string>
-</resources>
+</resources>||||||| empty tree=======<resources>
+<string name="app_name">Team-275-Mobile-App</string>
+
+<!--  strings used for login activity  -->
+<string name="welcome">Welcome!</string>
+<string name="forgot_your_password">Forgot your Password?</string>
+<string name="or">OR</string>
+<string name="login">Login</string>
+<string name="don_t_have_an_account_sign_up">Don\'t have an account? Sign Up</string>
+
+<!--  strings used for register activity  -->
+<string name="lets_get_started">Let\'s Get Started!</string>
+<string name="i_m_a_patient">I\'m a Patient</string>
+<string name="i_m_a_consultant">I\'m a Consultant</string>
+<string name="already_have_an_account_login">Already have an account? Login</string>
+<string name="i_am_a_patient">I am a Patient</string>
+<string name="i_am_a_consultant">I am a Consultant</string>
+<string name="sign_up">Sign Up!</string>
+<string name="register">Register</string>
+<string name="please_select_a_category">Please select a category</string>
+<string name="hi_consultant">Hi, Consultant</string>
+<string name="complete_required_fields_registration_consultant">To complete your registration please Fill in the form below.</string>
+<string name="enter_clinic_or_hospital">Enter Clinic or Hospital</string>
+<string name="enter_your_occupation_number">Enter your occupation number</string>
+<string name="department_name_number">Department Name/Number</string>
+<string name="your_license_number">Your License Number</string>
+<string name="back">Back</string>
+<string name="submit">Submit</string>
+
+<!--  strings used in both activities  -->
+<string name="enter_your_email_address">Enter your Email address</string>
+<string name="enter_your_password">Enter your Password</string>
+<string name="enter_full_name">Enter Full Name</string>
+<string name="enter_username">Enter username</string>
+<string name="enter_phone_number">Enter Phone Number</string>
+<string name="confirm_password">Confirm Password</string>
+<string name="enter_your_category">Enter your Category</string>
+<string name="reset_password">Reset Password</string>
+<string name="email_address">Enter your Email Address</string>
+<string name="confirm">Confirm</string>
+
+</resources>>>>>>>> origin/ben

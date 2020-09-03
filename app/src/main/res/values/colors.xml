@@ -1,6 +1,28 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <color name="colorPrimary">#6200EE</color>
-    <color name="colorPrimaryDark">#3700B3</color>
-    <color name="colorAccent">#03DAC5</color>
-</resources>
+<<<<<<< HEAD<?xml version="1.0" encoding="utf-8"?><resources>
+<color name="colorPrimary">#6200EE</color>
+<color name="colorPrimaryDark">#3700B3</color>
+<color name="colorAccent">#03DAC5</color>
+</resources>||||||| empty tree=======<?xml version="1.0" encoding="utf-8"?><resources>
+<color name="colorPrimary">#6200EE</color>
+<color name="colorPrimaryDark">#3700B3</color>
+<color name="colorAccent">#03DAC5</color>
+
+<!--  account_ui_bg_color  -->
+<color name="purple">#A143FF</color>
+<color name="blue">#348AFF</color>
+
+<!--  register and login button  -->
+<color name="light_blue">#00CBFF</color>
+
+<!--  for text and other items  -->
+<color name="white">#FFFFFF</color>
+<color name="black">#000000</color>
+<color name="dark_gray">#B1B1B1</color>
+<color name="light_gray">#E1DBDB</color>
+<color name="green">#26C789</color>
+<color name="dark_purple">#7800D2</color>
+<color name="dark_blue">#3941A2</color>
+<color name="pale_cyan">#81E9ED</color>
+<color name="pastel_pink">#FFCCDA</color>
+<color name="lavender_blue">#BCC9FF</color>
+</resources>>>>>>>> origin/ben
