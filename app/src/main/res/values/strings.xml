@@ -1,6 +1,4 @@
 <resources>
-    <string name="app_name">Team-275-Mobile-App</string>
-</resources>||||||| empty tree=======<resources>
 <string name="app_name">Team-275-Mobile-App</string>
 
 <!--  strings used for login activity  -->
@@ -32,13 +30,13 @@
 <!--  strings used in both activities  -->
 <string name="enter_your_email_address">Enter your Email address</string>
 <string name="enter_your_password">Enter your Password</string>
-<string name="enter_full_name">Enter Full Name</string>
-<string name="enter_username">Enter username</string>
-<string name="enter_phone_number">Enter Phone Number</string>
-<string name="confirm_password">Confirm Password</string>
-<string name="enter_your_category">Enter your Category</string>
-<string name="reset_password">Reset Password</string>
-<string name="email_address">Enter your Email Address</string>
-<string name="confirm">Confirm</string>
+    <string name="enter_full_name">Enter Full Name</string>
+    <string name="enter_username">Enter username</string>
+    <string name="enter_phone_number">Enter Phone Number</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="enter_your_category">Enter your Category</string>
+    <string name="reset_password">Reset Password</string>
+    <string name="email_address">Enter your Email Address</string>
+    <string name="confirm">Confirm</string>
 
-</resources>>>>>>>> origin/ben
+</resources>

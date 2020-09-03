@@ -1,3 +1,4 @@
+
 package com.example.team_275_mobile_app;
 
 import android.os.Bundle;
@@ -11,24 +12,6 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-    }
-}
-|||||||empty tree
-        =======
-        package com.example.team_275_mobile_app;
-
-        import androidx.appcompat.app.AppCompatActivity;
-
-        import android.os.Bundle;
-        import android.widget.Toast;
-
-public class MainActivity extends AppCompatActivity {
-
-    @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
         Toast.makeText(this, "Hello world", Toast.LENGTH_SHORT).show();
     }
 }
->>>>>>>origin/ben
