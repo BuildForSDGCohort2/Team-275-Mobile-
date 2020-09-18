@@ -22,4 +22,13 @@
     <color name="pale_cyan">#81E9ED</color>
     <color name="pastel_pink">#FFCCDA</color>
     <color name="lavender_blue">#BCC9FF</color>
+    <color name="bottom_nav_icon_bg">#D3D6FF</color>
+    <color name="bottom_nav_gray">#8E8E8E</color>
+    <color name="bg_light_gray">#F4F4F4</color>
+    <color name="ic_appointments_patient">#A581ED</color>
+    <color name="ic_prescription_patient">#F97777</color>
+    <color name="ic_doctors_patient">#26C789</color>
+    <color name="ic_pharmacies_patient">#1CA7EC</color>
+    <color name="ic_medical_records_patient">#F97777</color>
+    <color name="ic_billing_patient">#AF7AC5</color>
 </resources>

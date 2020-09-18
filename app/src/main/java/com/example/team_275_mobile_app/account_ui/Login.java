@@ -11,8 +11,9 @@ import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.example.team_275_mobile_app.MainActivity;
+
 import com.example.team_275_mobile_app.R;
+import com.example.team_275_mobile_app.patient.PatientMainActivity;
 
 public class Login extends AppCompatActivity {
 
@@ -42,7 +43,7 @@ public class Login extends AppCompatActivity {
             // implementing onclick. please replace with the right function
             public void onClick(View view) {
                 Intent i = new Intent(getApplicationContext(),
-                        MainActivity.class);
+                        PatientMainActivity.class);
                 startActivity(i);
                 finish();
             }

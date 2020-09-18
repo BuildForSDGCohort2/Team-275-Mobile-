@@ -4,8 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/account_ui_bg"
-    tools:context=".account_ui.Login">
+    android:background="@drawable/account_ui_bg">
 
     <ScrollView
         android:id="@+id/login_form"

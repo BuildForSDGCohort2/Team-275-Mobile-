@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/home"
+        android:icon="@drawable/ic_round_home"
+        android:title="@string/bottom_icon_home"
+        app:cnb_backgroundColor="@color/bottom_nav_icon_bg"
+        app:cnb_iconColor="@color/dark_blue"
+        app:cnb_textColor="@color/dark_blue" />
+
+    <item
+        android:id="@+id/search"
+        android:icon="@drawable/ic_round_search"
+        android:title="@string/bottom_icon_search"
+        app:cnb_backgroundColor="@color/bottom_nav_icon_bg"
+        app:cnb_iconColor="@color/dark_blue"
+        app:cnb_textColor="@color/dark_blue" />
+
+    <item
+        android:id="@+id/appointments"
+        android:icon="@drawable/ic_round_event"
+        android:title="@string/bottom_icon_appointment"
+        app:cnb_backgroundColor="@color/bottom_nav_icon_bg"
+        app:cnb_iconColor="@color/dark_blue"
+        app:cnb_textColor="@color/dark_blue" />
+
+    <item
+        android:id="@+id/chats"
+        android:icon="@drawable/ic_round_mail"
+        android:title="@string/bottom_icon_chat"
+        app:cnb_backgroundColor="@color/bottom_nav_icon_bg"
+        app:cnb_iconColor="@color/dark_blue"
+        app:cnb_textColor="@color/dark_blue" />
+</menu>

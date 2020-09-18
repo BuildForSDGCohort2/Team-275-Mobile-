@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <!--NOTE: i have given the group different ids so that they can
+    automatically be split into different layers-->
+
+    <group android:id="@+id/grp1" android:checkableBehavior="none">
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/ic_round_person"
+            android:title="@string/profile"/>
+        <item
+            android:id="@+id/nav_favourites"
+            android:icon="@drawable/ic_round_favourites"
+            android:title="@string/favourites"
+            />
+    </group>
+
+    <group android:id="@+id/grp2" android:checkableBehavior="none">
+        <item
+            android:id="@+id/nav_settings"
+            android:icon="@drawable/ic_round_settings"
+            android:title="@string/settings"
+            />
+        <item
+            android:id="@+id/nav_help"
+            android:icon="@drawable/ic_round_help_outline"
+            android:title="@string/help_center"
+            />
+    </group>
+</menu>

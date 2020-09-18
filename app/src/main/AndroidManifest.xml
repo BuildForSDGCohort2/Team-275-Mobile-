@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.team_275_mobile_app">
-
     <!-- Add Internet permission -->
     <uses-permission android:name="android.permission.INTERNET" />
 
@@ -13,17 +12,74 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
+            android:name=".patient.PatientBilling"
+            android:label="@string/billing"
+            android:parentActivityName=".patient.PatientMainActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".patient.PatientMedicalRecords"
+            android:label="@string/medical_records"
+            android:parentActivityName=".patient.PatientMainActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".patient.PatientPharmacies"
+            android:label="@string/pharmacies"
+            android:parentActivityName=".patient.PatientMainActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".patient.PatientMyDoctors"
+            android:label="@string/doctors"
+            android:parentActivityName=".patient.PatientMainActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".patient.PatientPrescriptions"
+            android:label="@string/prescriptions"
+            android:parentActivityName=".patient.PatientMainActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".patient.PatientAppointments"
+            android:label="@string/appointments"
+            android:parentActivityName=".patient.PatientMainActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".patient.PatientHelp"
+            android:label="@string/activity_help"
+            android:parentActivityName=".patient.PatientMainActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".patient.PatientSettings"
+            android:label="@string/activity_settings"
+            android:parentActivityName=".patient.PatientMainActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".patient.PatientFavourites"
+            android:label="@string/activity_favourites"
+            android:parentActivityName=".patient.PatientMainActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".patient.PatientProfile"
+            android:label="@string/activity_profile"
+            android:parentActivityName=".patient.PatientMainActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".patient.PatientMainActivity"
+            android:label=" "
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".consultant.ConsultantMainActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
             android:name=".account_ui.AdditionalRegistrationDetails"
-            android:theme="@style/AppTheme.NoActionBar"/>
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".account_ui.RegisterConsultant"
-            android:theme="@style/AppTheme.NoActionBar"/>
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".account_ui.RegisterPatient"
-            android:theme="@style/AppTheme.NoActionBar"/>
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".account_ui.AccountType"
-            android:theme="@style/AppTheme.NoActionBar"/>
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".account_ui.Login"
             android:theme="@style/AppTheme.NoActionBar">
@@ -32,9 +88,6 @@
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-        </activity>
-        <activity android:name=".MainActivity"
-            android:theme="@style/AppTheme">
         </activity>
     </application>
 
