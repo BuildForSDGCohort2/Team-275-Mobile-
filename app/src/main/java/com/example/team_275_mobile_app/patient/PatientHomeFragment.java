@@ -26,7 +26,7 @@ public class PatientHomeFragment extends Fragment {
         View view = inflater.inflate(R.layout.fragment_patient_home, container, false);
 
         //setting toolbar tittle for this fragment, and first you have to make the toolbar public
-        ((PatientMainActivity) getActivity()).toolbar.setTitle(" ");
+        ((PatientMainActivity) getActivity()).toolbar.setTitle("Online Health Therapy");
 
         // handle cardview click events
         CardView cardView1 = view.findViewById(R.id.card_p_1);

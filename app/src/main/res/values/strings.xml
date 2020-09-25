@@ -61,12 +61,19 @@
     <string name="activity_profile">Profile</string>
     <string name="welcome_back">Welcome Back,</string>
     <string name="patient_s_name">Patient\'s Name</string>
+    <string name="consultant_s_name">Consultant\'s Name</string>
     <string name="home_fragment_txt_desc">We believe in good health and well being!</string>
     <string name="appointments">Appointments</string>
     <string name="prescriptions">Prescriptions</string>
     <string name="doctors">Doctors</string>
     <string name="pharmacies">Pharmacies</string>
     <string name="medical_records">Medical Records</string>
+    <string name="online_health_therapy">Online Health Therapy</string>
+    <string name="my_patients">My Patients</string>
+    <string name="my_pharmacies">My Pharmacies</string>
     <string name="billing">Billing</string>
+    <string name="reviews">Reviews</string>
+    <string name="schedule_timings">Schedule Timings</string>
+    <string name="shedule_timings">Schedule Timings</string>
 
 </resources>

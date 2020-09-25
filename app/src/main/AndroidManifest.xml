@@ -12,6 +12,61 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
+            android:name=".patient.BookingActivity"
+            android:label="Booking"
+            android:parentActivityName=".patient.ViewConsultantDetails"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity
+            android:name=".patient.ViewConsultantDetails"
+            android:label="View Doctor"
+            android:parentActivityName=".patient.PatientMainActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".consultant.ConsultantReviews"
+            android:label="@string/reviews"
+            android:parentActivityName=".consultant.ConsultantMainActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".consultant.ConsultantBilling"
+            android:label="@string/billing"
+            android:parentActivityName=".consultant.ConsultantMainActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".consultant.ConsultantMyPharmacies"
+            android:label="@string/my_pharmacies"
+            android:parentActivityName=".consultant.ConsultantMainActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".consultant.ConsultantMyPatients"
+            android:label="@string/my_patients"
+            android:parentActivityName=".consultant.ConsultantMainActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".consultant.ConsultantScheduleTimings"
+            android:label="@string/shedule_timings"
+            android:parentActivityName=".consultant.ConsultantMainActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".consultant.ConsultantAppointments"
+            android:label="@string/appointments"
+            android:parentActivityName=".consultant.ConsultantMainActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".consultant.ConsultantSettings"
+            android:label="@string/settings"
+            android:parentActivityName=".consultant.ConsultantMainActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".consultant.ConsultantTeam"
+            android:label="@string/team"
+            android:parentActivityName=".consultant.ConsultantMainActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".consultant.ConsultantProfile"
+            android:label="@string/profile"
+            android:parentActivityName=".consultant.ConsultantMainActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
             android:name=".patient.PatientBilling"
             android:label="@string/billing"
             android:parentActivityName=".patient.PatientMainActivity"
@@ -63,10 +118,11 @@
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".patient.PatientMainActivity"
-            android:label=" "
+            android:label="@string/online_health_therapy"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".consultant.ConsultantMainActivity"
+            android:label="@string/online_health_therapy"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".account_ui.AdditionalRegistrationDetails"
